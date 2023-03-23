@@ -1,0 +1,20 @@
+{
+  "name": "hedera_certification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "smart_contract_service": "node smart_contract_service.js",
+    "token_service": "node token_service.js",
+    "scheduled_transaction": "node scheduled_transaction.js",
+    "multi_signature": "node multi_signature.js",
+    "consensus_service": "node consensus_service.js"
+  },
+  "author": "Filip Brkic",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.23.0",
+    "dotenv": "^16.0.3"
+  }
+}
